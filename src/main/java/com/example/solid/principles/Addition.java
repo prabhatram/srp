@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Addition 
 {
     public int userInputs(int num1, int num2) {
-        int addition = num1 + num2;
+        int addition = num1 * num2;
         return addition;
     }
     
