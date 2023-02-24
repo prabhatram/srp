@@ -20,6 +20,7 @@ class AddTest
     {
         Addition addition = new Addition();
         assertEquals(4, addition.userInputs(2, 2));
+        System.out.println("Yeah, your addition logic works");
         
     }
 
@@ -28,6 +29,7 @@ class AddTest
     {
         Addition addition = new Addition();
         assertEquals(7, addition.userInputs(3, 4));
+        System.out.println("Yeah, your addition logic really works");
     }
 
     @Test
@@ -35,5 +37,6 @@ class AddTest
     {
         Addition addition = new Addition();
         assertTrue(addition.userInputs(2, 2) > 0);
+        System.out.println("Yeah, your addition spits out positive numbers");
     }
 }
